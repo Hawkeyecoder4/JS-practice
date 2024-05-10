@@ -1,39 +1,47 @@
-// let name = "John Doe";
-//  age = "30" ;
-// isStudent = true;
+// Varialbes
 
-// console.log(name);
-// console.log(age);
-// console.log(isStudent);
+let name = "John Doe";
+ age = "30" ;
+isStudent = true;
+
+console.log(name);
+console.log(age);
+console.log(isStudent);
  
-// console.log (typeof name);
-// console.log (typeof age);
-// console.log (typeof isStudent);
+console.log (typeof name);
+console.log (typeof age);
+console.log (typeof isStudent);
 
-// const hobbies = ["reading", "hiking" , "coding" ];
-// console.log (hobbies);
-// console.log(hobbies[0]);
-// console.log(hobbies[2]);
-// hobbies.push("swimming" , "driving");
-// console.log(hobbies);
-// hobbies.shift();
-// console.log(hobbies); 
+// Arrays
 
-// const person = {
-//     name : "John Doe" ,
-//     age : "30" ,
-//     isStudent : true,
-// };
-// console.log(name);
-// console.log(age);
-// console.log(isStudent);
+const hobbies = ["reading", "hiking" , "coding" ];
+console.log (hobbies);
+console.log(hobbies[0]);
+console.log(hobbies[2]);
+hobbies.push("swimming" , "driving");
+console.log(hobbies);
+hobbies.shift();
+console.log(hobbies); 
 
-// console.log (person.occupation = "Programer");
-// console.log(person); 
+// Object
 
-//  name = "John Doe";
-//  age = "30" ;
-// isStudent = true;
+const person = {
+    name : "John Doe" ,
+    age : "30" ,
+    isStudent : true,
+};
+console.log(name);
+console.log(age);
+console.log(isStudent);
+
+console.log (person.occupation = "Programer");
+console.log(person); 
+
+ name = "John Doe";
+ age = "30" ;
+isStudent = true;
+
+// Conditions
 
 if (age > 18) {
     console.log("Adult");
@@ -42,18 +50,22 @@ if (age > 18) {
 }
 
 
-// if (isStudent = true ) {
-//     console.log("Programer");
-// } else {
-//     console.log("shopkeeper");
-// }
+if (isStudent = true ) {
+    console.log("Programer");
+} else {
+    console.log("shopkeeper");
+}
 
-// if (hobbies.includes ("coding")) {
-//     console.log ("Programer")
+if (hobbies.includes ("coding")) {
+    console.log ("Programer")
 
-// } else {
-//     console.log("pro promgramer");
-// }
+} else {
+    console.log("pro promgramer");
+
+}
+
+// Function
+
 function greet (name) {
     console.log("Assalam e Alikum" , name );
 }  
